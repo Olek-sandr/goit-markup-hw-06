@@ -230,6 +230,7 @@ button {
   border-radius: 4px;
 
   height: 40px;
+  width: 100%;
 }
 
 .subscribe-form-field label {
@@ -241,6 +242,16 @@ button {
   margin-bottom: 4px;
 
   color: var(--second-color);
+}
+
+.subscribe-form-container-input-icon {
+  position: relative;
+}
+
+.subscribe-form-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .subscrib-button {
