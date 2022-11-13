@@ -203,6 +203,17 @@ button {
   margin-bottom: 20px;
 }
 
+.subscribe-form-field textarea,
+.subscribe-form-field input {
+  transition: border-color 250ms var(--timing-function);
+  outline: none;
+}
+
+.subscribe-form-field textarea:focus,
+.subscribe-form-field input:focus {
+  border-color: var(--accent);
+}
+
 .subscribe-form-field textarea {
   resize: none;
 
