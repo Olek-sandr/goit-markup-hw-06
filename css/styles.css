@@ -198,6 +198,7 @@ button {
   margin-bottom: 10px;
 
   /* outline: 1px solid red; */
+  /* outline: 1px solid red; */
 }
 
 .subscribe-form-field-lust {
@@ -499,9 +500,13 @@ img {
 }
 
 .footer-form {
+  display: flex;
 }
 
 .footer-form input {
+  height: 50px;
+  width: 358px;
+
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
@@ -513,16 +518,18 @@ img {
   border-radius: 4px;
 }
 
-.footer-form-placeholder {
-}
-
 .footer-form-button {
+  display: block;
+
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 28px;
   padding-right: 62px;
+
+  margin-left: 12px;
+
   line-height: 1.6;
-  letter-spacing: 0, 6;
+  letter-spacing: 0.06em;
 
   background-color: var(--accent);
 }
