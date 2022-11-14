@@ -207,13 +207,16 @@ button {
   width: 100%;
 
   margin-bottom: 10px;
-
-  /* outline: 1px solid red; */
-  /* outline: 1px solid red; */
 }
 
 .subscribe-form-field-lust {
   margin-bottom: 20px;
+}
+
+.subscribe-form-field-placeholder {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #75757580;
 }
 
 .subscribe-form-field textarea,
